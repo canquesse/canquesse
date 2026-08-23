@@ -1,8 +1,7 @@
 ## can kara
 
-computer science b.sc. at the university of bremen. i build the engineering layer
-around ai systems — the services around a model, the code that calls it, and the
-tests that say whether a change helped.
+computer science b.sc. at the university of bremen, working alongside my studies.
+i build ai systems for production rather than for papers.
 
 <p>
   <a href="https://canquesse.com"><img src="https://img.shields.io/badge/canquesse.com-141412?style=flat-square&logo=cloudflare&logoColor=F38020" alt="website" /></a>
@@ -12,40 +11,15 @@ tests that say whether a change helped.
 
 ---
 
-### what i do
+### focus
 
-i build tool-calling agent loops — typed tool registries, step budgets, and failure
-paths that stay predictable when a model or a dependency misbehaves. around that sits
-the retrieval side: deterministic chunking, embedding pipelines, and vector search on
-postgres + pgvector.
+agent runtimes and the layer around them: tool calling that stays predictable when a
+model misbehaves, retrieval over vector search, and service boundaries that are tested
+instead of assumed. mostly python and java, on postgres, in docker.
 
-the services underneath are java / spring boot and python / fastapi, with versioned
-schemas and contract-first boundaries that get tested rather than assumed. i want to be
-able to see what actually happened, so distributed tracing and structured logs go in
-early, and eval harnesses run offline so they cost nothing in ci. all of it lives on
-docker, github actions, and self-hosted inference on linux behind a private network.
-
----
-
-### tools
-
-![python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
-![java](https://img.shields.io/badge/java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![typescript](https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![spring boot](https://img.shields.io/badge/spring%20boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![fastapi](https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white)
-![postgresql](https://img.shields.io/badge/postgresql%20%2B%20pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![pytorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![hugging face](https://img.shields.io/badge/hugging%20face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![llama.cpp](https://img.shields.io/badge/llama.cpp-2C2C2C?style=flat-square)
-![react](https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black)
-![next.js](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![github actions](https://img.shields.io/badge/github%20actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![linux](https://img.shields.io/badge/linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![tailscale](https://img.shields.io/badge/tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
-![cloudflare](https://img.shields.io/badge/cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![haskell](https://img.shields.io/badge/haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
+what i care about most is being able to tell whether a change actually helped — tracing
+and structured logs so a run can be reconstructed afterwards, and evals that run offline
+so checking costs nothing.
 
 ---
 
