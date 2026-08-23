@@ -50,11 +50,10 @@ tests that say whether a change helped.
 
 ### home lab
 
-i run my own inference box — an open-weight model behind an openai-compatible
-endpoint on a private network. real models to build against, no api cost, no data
-leaving the network, and a deterministic offline fake as the default in ci.
+own inference box — an open-weight model behind an openai-compatible endpoint on
+a private network. real models to test against, no api cost, nothing leaves it.
 
 ---
 
 open to ai/ml engineering internships and working-student roles in germany.
-most of what i work on daily lives in private repositories.
+most of my daily work sits in private repos.
