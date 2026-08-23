@@ -1,6 +1,6 @@
 ## can kara
 
-computer science b.sc. at the university of bremen, working alongside my studies.
+computer science b.sc. at the university of bremen, and full-stack developer at dbh.
 i build ai systems for production rather than for papers.
 
 <p>
