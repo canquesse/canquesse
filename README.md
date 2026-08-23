@@ -26,7 +26,7 @@ so checking costs nothing.
 ### home lab
 
 own inference box — an open-weight model behind an openai-compatible endpoint on
-a private network. real models to test against, no api cost, nothing leaves it.
+a private network, so there is always a real model to test against.
 
 ---
 
