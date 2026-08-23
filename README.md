@@ -14,15 +14,16 @@ tests that say whether a change helped.
 
 ### what i do
 
-**agents** — tool-calling loops, typed tool registries, step budgets, and failure paths that stay predictable
+i build tool-calling agent loops — typed tool registries, step budgets, and failure
+paths that stay predictable when a model or a dependency misbehaves. around that sits
+the retrieval side: deterministic chunking, embedding pipelines, and vector search on
+postgres + pgvector.
 
-**retrieval** — chunking, embedding pipelines, vector search on postgres + pgvector
-
-**backend** — java / spring boot, python / fastapi, versioned schemas, contract-first services
-
-**evaluation** — distributed tracing, structured logs, offline eval harnesses that cost nothing in ci
-
-**infra** — docker, github actions, self-hosted inference on linux, private networking
+the services underneath are java / spring boot and python / fastapi, with versioned
+schemas and contract-first boundaries that get tested rather than assumed. i want to be
+able to see what actually happened, so distributed tracing and structured logs go in
+early, and eval harnesses run offline so they cost nothing in ci. all of it lives on
+docker, github actions, and self-hosted inference on linux behind a private network.
 
 ---
 
@@ -55,5 +56,4 @@ a private network. real models to test against, no api cost, nothing leaves it.
 
 ---
 
-open to ai/ml engineering internships and working-student roles in germany.
 most of my daily work sits in private repos.
