@@ -18,8 +18,7 @@ model misbehaves, retrieval over vector search, and service boundaries that are 
 instead of assumed. mostly python and java, on postgres, in docker.
 
 what i care about most is being able to tell whether a change actually helped — tracing
-and structured logs so a run can be reconstructed afterwards, and evals that run offline
-so checking costs nothing.
+and structured logs so a run can be reconstructed afterwards, and evals that run offline.
 
 ---
 
