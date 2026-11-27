@@ -1,10 +1,9 @@
-<img src="assets/banner-v2.svg" width="100%" alt="Can Kara. Backend developer, AI applications and agent systems. A model proposes an action, a gate decides, a tool runs." />
+<img src="assets/banner-v2.svg" width="100%" alt="canquesse. Backend developer, AI applications and agent systems. A model proposes an action, a gate decides, a tool runs." />
 
 Backend developer working on AI applications and agent systems.<br />
 Java and Python, with the data flow, access control and tests around the model.
 
 - Building the agent runtime of **CAUTRUM**, private pre-alpha · [@cautrumofficial](https://www.instagram.com/cautrumofficial/)
-- Founder of **Türk Tech Almanya** · [turktechalmanya.de](https://turktechalmanya.de)
 - Java · Python · Spring Boot · FastAPI · PostgreSQL / pgvector · Docker
 
 <p>
