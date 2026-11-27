@@ -1,4 +1,4 @@
-<img src="assets/banner-v2.svg" width="100%" alt="canquesse. Backend developer, AI applications and agent systems. A model proposes an action, a gate decides, a tool runs." />
+<img src="assets/banner-v3.svg" width="100%" alt="canquesse. Backend developer, AI applications and agent systems. A model proposes an action, a gate decides, a tool runs." />
 
 Backend developer working on AI applications and agent systems.<br />
 Java and Python, with the data flow, access control and tests around the model.
