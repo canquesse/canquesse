@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <img src="assets/banner-light.svg" width="100%" alt="Can Kara. Backend developer, AI applications and agent systems. A model proposes an action, a gate decides, a tool runs." />
-</picture>
+<img src="assets/banner.svg" width="100%" alt="Can Kara. Backend developer, AI applications and agent systems. A model proposes an action, a gate decides, a tool runs." />
 
 Backend developer working on AI applications and agent systems.<br />
 Java and Python, with the data flow, access control and tests around the model.
