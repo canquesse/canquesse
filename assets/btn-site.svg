@@ -4,7 +4,6 @@
 
 .tx{font:400 16px G}.sm{font:500 11px M;opacity:.8}.bg{stroke-width:1.5}.ar{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .bg{fill:#D8322A;stroke:none}.tx{fill:#ffffff}.tile{fill:#ffffff}.ar{stroke:#D8322A}
-@media (prefers-color-scheme: dark){.bg{fill:#E0402F;stroke:none}.tx{fill:#ffffff}.tile{fill:#ffffff}.ar{stroke:#D8322A}}
 </style>
 <rect class="bg" x=".75" y=".75" width="189.7" height="52.5" rx="14"/>
 <text class="tx" x="18" y="32.6">canquesse.com</text>

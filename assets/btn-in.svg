@@ -4,7 +4,6 @@
 
 .tx{font:400 16px G}.sm{font:500 11px M;opacity:.8}.bg{stroke-width:1.5}.ar{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .bg{fill:#ffffff;stroke:#E9CFC3}.tx{fill:#63171B}.tile{fill:#F9DACD}.ar{stroke:#63171B}
-@media (prefers-color-scheme: dark){.bg{fill:none;stroke:#4a3438}.tx{fill:#F3E2DA}.tile{fill:#2a1a1d}.ar{stroke:#F6DCD0}}
 </style>
 <rect class="bg" x=".75" y=".75" width="137.6" height="52.5" rx="14"/>
 <text class="tx" x="18" y="32.6">LinkedIn</text>

@@ -41,47 +41,7 @@
     @keyframes ok { 0%, 18% { opacity: 0; } 21%, 30% { opacity: 1; } 34%, 100% { opacity: 0; } }
     @keyframes no { 0%, 68% { opacity: 0; } 71%, 80% { opacity: 1; } 84%, 100% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) { .flow, .a, .b, .gate .box, .gate .label, .tool .box, .ok, .no { animation: none; } .b { opacity: 0; } .a { offset-distance: 26%; } }
-    @media (prefers-color-scheme: dark) {
-
-                .name { font: 400 92px S; letter-spacing: -2.4px; fill: #F6DCD0; }
-    .name tspan { font-style: italic; fill: #FF6B4F; }
-    .kicker { font: 500 14px M; fill: #FF6B4F; letter-spacing: .2px; }
-    .lead { font: 400 15.5px M; fill: #F3E2DA; opacity: .78; }
-    .box { fill: #0d1117; stroke: #F6DCD0; stroke-width: 1.4; }
-    .label { font: 500 15px M; fill: #F6DCD0; text-anchor: middle; }
-    .note { font: 400 12.5px M; fill: #B9918A; text-anchor: middle; }
-    .wire { stroke: #3a2a2d; stroke-width: 1.6; fill: none; }
-    .flow { stroke: #FF6B4F; stroke-width: 1.6; fill: none; stroke-dasharray: 3 9; animation: flow 1.2s linear infinite; }
-    .token { fill: #FF6B4F; offset-rotate: 0deg; }
-    .a { offset-path: path("M742.0 168 H1018.0"); animation: a 9s cubic-bezier(.65,0,.35,1) infinite; }
-    .b { offset-path: path("M742.0 168 H815.0"); animation: b 9s cubic-bezier(.65,0,.35,1) infinite; }
-    .gate .box { animation: gate 9s linear infinite; }
-    .gate .label { animation: gatel 9s linear infinite; }
-    .tool .box { animation: tool 9s linear infinite; }
-    .say { font: 500 12.5px M; text-anchor: middle; opacity: 0; }
-    .ok { fill: #FF6B4F; animation: ok 9s linear infinite; }
-    .no { fill: #F6DCD0; animation: no 9s linear infinite; }
-    .dot { fill: #3a2a2d; }
-    @keyframes flow { to { stroke-dashoffset: -12; } }
-    /* one allowed request: to the gate, a moment, through to the tool */
-    @keyframes a {
-      0% { offset-distance: 0%; opacity: 0; } 3% { opacity: 1; }
-      18% { offset-distance: 26%; } 28% { offset-distance: 26%; }
-      42% { offset-distance: 100%; opacity: 1; } 47%, 100% { offset-distance: 100%; opacity: 0; } }
-    /* the next one is held, and goes back */
-    @keyframes b {
-      0%, 50% { offset-distance: 0%; opacity: 0; } 53% { opacity: 1; }
-      68% { offset-distance: 100%; } 79% { offset-distance: 100%; opacity: 1; }
-      92% { offset-distance: 30%; opacity: 0; } 100% { offset-distance: 0%; opacity: 0; } }
-    @keyframes gate {
-      0%, 17% { fill: #0d1117; stroke: #F6DCD0; } 20%, 28% { fill: #FF6B4F; stroke: #FF6B4F; } 33%, 66% { fill: #0d1117; stroke: #F6DCD0; }
-      69%, 79% { fill: #7A0E16; stroke: #7A0E16; } 84%, 100% { fill: #0d1117; stroke: #F6DCD0; } }
-    @keyframes gatel { 0%, 17% { fill: #F6DCD0; } 20%, 28% { fill: #1a0508; } 33%, 66% { fill: #F6DCD0; } 69%, 79% { fill: #fff; } 84%, 100% { fill: #F6DCD0; } }
-    @keyframes tool { 0%, 39% { stroke: #F6DCD0; stroke-width: 1.4; } 42%, 48% { stroke: #FF6B4F; stroke-width: 2.6; } 54%, 100% { stroke: #F6DCD0; stroke-width: 1.4; } }
-    @keyframes ok { 0%, 18% { opacity: 0; } 21%, 30% { opacity: 1; } 34%, 100% { opacity: 0; } }
-    @keyframes no { 0%, 68% { opacity: 0; } 71%, 80% { opacity: 1; } 84%, 100% { opacity: 0; } }
-        }
-</style>
+    </style>
     <defs>
       <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle class="dot" cx="2" cy="2" r="1.1"/></pattern>
       <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff"/></linearGradient>
